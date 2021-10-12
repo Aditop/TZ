@@ -1,0 +1,48 @@
+.main{
+    padding: 50px 0;
+    min-height: 100vh; 
+}
+
+.block{
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    column-gap: 20px;
+    row-gap: 20px;
+}
+
+.item {
+    border-radius: 10px;
+    box-shadow: 0px 0px 10px 0px #ccc;
+    text-align: center;
+    transition: all .3s;
+    padding: 20px;
+    background: #fff;
+}
+
+.item:hover{
+    box-shadow: 0px 0px 5px 0px #ccc;
+}
+
+
+.item > img {
+    width: 100%;
+}
+
+.item >h3 {
+    color: #000;
+    font-size: 18px;
+
+}
+
+.form{
+    margin-bottom: 20px;
+}
+
+.form > input {
+    padding: 10px;
+    background: #fff;
+    font-size: 16px;
+    border-radius: 10px;
+    width: 100%;
+}
+
